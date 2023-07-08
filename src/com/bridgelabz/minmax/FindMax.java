@@ -22,4 +22,15 @@ public class FindMax{
             System.out.println("num3 is largest:" + num3);
         }
     }
+    //UC-3:To find out maximum between three Strings.
+    public static void findMaxString(String str1, String str2, String str3) {
+
+        if (str1.compareTo(str2) > 0 && str1.compareTo(str3) > 0) {
+            System.out.println("num1 is largest:" + str1);
+        } else if (str2.compareTo(str1) > 0 && str2.compareTo(str3) > 0) {
+            System.out.println("num2 is largest:" + str2);
+        } else {
+            System.out.println("num3 is largest:" + str3);
+        }
+    }
 }
